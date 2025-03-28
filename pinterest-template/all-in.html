@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <span class="logo">
+                <img src="./images/logo.png" alt="logo" />
+            </span>
+            <form class="search-form">
+                <input type="text" class="form-control" placeholder="Поиск" />
+            </form>
+            <nav class="header-nav">
+                <span class="header-nav__link">Пины</span>
+                <span class="header-nav__link">Избранное</span>
+                <button class="theme-switcher">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="block">
+            <div class="container">
+                <h1 class="title">Все пины</h1>
+                <div class="pins-grid">
+                    <div class="pin-item">
+                        <img src="https://fakeimg.pl/300x500" alt="Name" class="pin-item__img" />
+                        <div class="pin-item__body">
+                            <h3 class="pin-item__title">text</h3>
+                            <div class="pin-item__actions">
+                                <button class="favorite"><i class="fa-regular fa-bookmark"></i>Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block">
+            <div class="container">
+                <h1 class="title">Избранное</h1>
+                <div class="pins-grid">
+                    <div class="pin-item">
+                        <img src="https://fakeimg.pl/300x500" alt="Name" class="pin-item__img" />
+                        <div class="pin-item__body">
+                            <h3 class="pin-item__title">text</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>
